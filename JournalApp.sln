@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JournalDB", "JournalDB\JournalDB.sqlproj", "{10D82B83-7E94-4E97-8A23-A2C422532421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalApi", "JournalApi\JournalApi.csproj", "{07C75981-C881-4B67-9B29-5F9D34D41BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D82B83-7E94-4E97-8A23-A2C422532421}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07C75981-C881-4B67-9B29-5F9D34D41BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C75981-C881-4B67-9B29-5F9D34D41BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C75981-C881-4B67-9B29-5F9D34D41BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C75981-C881-4B67-9B29-5F9D34D41BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B956CEBD-B1A9-4FCF-A968-F598D66C6985}
+	EndGlobalSection
+EndGlobal
