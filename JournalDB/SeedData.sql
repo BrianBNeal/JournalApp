@@ -17,7 +17,6 @@ BEGIN
         (FirstName, LastName, UserName, FirebaseUID)
     VALUES ('Brian', 'Neal', 'brianbneal@gmail.com', 'oBcmoafWnXPRMF0Y7ApltJIR1Co2')
 END;
-GO;
 
 --TAG
 IF NOT EXISTS(SELECT 1 FROM Tag)

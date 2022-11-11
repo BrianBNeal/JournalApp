@@ -72,4 +72,7 @@
   <ItemGroup>
     <RefactorLog Include="JournalDB.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="JournalDB.publish.xml" />
+  </ItemGroup>
 </Project>

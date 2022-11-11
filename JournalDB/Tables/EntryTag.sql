@@ -1,6 +1,8 @@
 ﻿CREATE TABLE [dbo].[EntryTag]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [EntryId] INT NOT NULL, 
-    [TagId] INT NOT NULL
+    [TagId] INT NOT NULL, 
+    CONSTRAINT [FK_EntryTag_Entry] FOREIGN KEY (EntryId) REFERENCES [Entry](Id), 
+    CONSTRAINT [FK_EntryTag_Tag] FOREIGN KEY (TagId) REFERENCES Tag(Id)
 )
